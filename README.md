@@ -32,9 +32,9 @@ The program is an alternative version of word count, instead of diplaying the co
 **Lesson Learned**
 1. Getting familiar with Hadoop and HDFS environment and user cmd
 2. Using bash script to auto generate the datasets & hadoop map-reduce application execution
-  * bash/CMD_README.md: notes of all the bash used in this project
+   * bash/CMD_README.md: notes of all the bash used in this project
 3. Implement the MapReduce application:
-  * Mapper class implementation
+   * Mapper class implementation
   
         * setup()  :Called once at the beginning of the task.
         * map()    :Called once for each key/value pair in the input split.
