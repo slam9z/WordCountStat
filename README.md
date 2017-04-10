@@ -36,10 +36,10 @@ The program is an alternative version of word count, instead of diplaying the co
 3. Implement the MapReduce application:
   * Mapper class implementation
     ####Methods Summary:
-        setup()  :Called once at the beginning of the task.
-        map()    :Called once for each key/value pair in the input split.
-        cleanup():Called once at the end of the task.
-        run()    :
+        * setup()  :Called once at the beginning of the task.
+        * map()    :Called once for each key/value pair in the input split.
+        * cleanup():Called once at the end of the task.
+        * run()    :
   * Implement Custom Hadoop Writable Data Type - It is not neccessary for this project, but good for knowing
   * Reducer class implementation
     ####Methods Summary:
